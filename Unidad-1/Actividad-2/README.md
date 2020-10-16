@@ -8,11 +8,13 @@
 
 ##### **Punto 2.2** Primera conexión con SSH Linux
 Primero comprobaremos la conexión desde el cliente haciendo un ping al servidor para ver si tenemos conectividad entre ambos, a continuación realizaremos un nmap para comprobar los puertos abiertos de nuestro servidor.
+
 ![](1.png)
 
 Ahora desde el cliente nos conectaremos mediante ssh a uno de los usuarios creados anteriormente del servidor.
 
 En concreto use hernandez1@192.168.1.31 que es la ip del servidor porque el dns no funcionaba por un error de configuración, aunque ya esta arreglado, y se puede ver en las siguientes capturas.
+
 ![](1.1.png)
 
 Por último haremos una última comprobación desde el cliente para verificar que ha habido una conexión.
