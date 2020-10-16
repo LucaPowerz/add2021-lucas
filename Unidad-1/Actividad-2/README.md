@@ -36,32 +36,26 @@ Una vez creadas las copiaremos con el comando ssh-copy-id a nuestro user "Apelli
 Ahora al entrar a nuestro usuario "Apellido4" no tendríamos que entrar con la contraseña, ya que el propio server no nos la pedirá.
 ![](3.2_OpenSuse.png)
 
+
+A su vez con al hacer la conexión ssh mediante windows podemos ver como si que nos la pide.
+![](3.2_Windows.png)
+
 ##### **Punto 6** Uso de SSH como túnel para X
 
 Instalaremos en el servidor una app de entorno gráfico como el Gean, dentro del server de OpenSuse  cambiaremos la configuración para permitir las aplicaciones gráficas en SSH.
 
-IMAGEN 1 (FICHERO MODIFICADO)
+![](6.png)
 
 Ahora en el cliente, comprobaremos que no tenemos instalada la aplicación, una vez comprobado nos conectaremos de forma remota al "Apellido1" y ejecutaremos la aplicación.
 
-IMAGEN 2 (aplicación abierta desde el cliente conectado al ssh del servidor)
+![](6.1.png)
 
 ##### **Punto 8.1** Restricción sobre un usuario
 
 Ahora crearemos una restricción para el usuario "Apellido2", por lo que a partir de ahora desde los clientes no podremos acceder por ssh al usuario "Apellido2".
 
-IMAGEN 1 (Sin acceso desde el cliente a hernandez2)
+![](8.png)
 
-##### **Punto 9** Servidor SSH en Windows
+![](8.1.png)
 
-Añadiremos en el archivo hosts los equipos client10g y client10w, a continuación comprobaremos la conectividad con un ping.
-
-IMAGEN 1 (Clientes añadidos en el ficher hosts)
-
-IMAGEN 2 (Ping a los clientes)
-
-Por último comprobaremos el acceso SSH desde los clientes al servidor windows con los comandos, netstat para windows y lsof para linux.
-
-IMAGEN 3 (netstat con Windows)
-
-IMAGEN 4 (lsof con Linux)
+![](8.2.png)
