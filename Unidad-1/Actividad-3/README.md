@@ -95,5 +95,5 @@ Para este último paso nos aseguramos (tras haber reiniciado) que los recursos c
 
 Por último iremos al fichero "/etc/fstab" y añadiremos una nueva linea.
 
-####### Errores.
+###### Errores.
 * Una vez puesta la nueva linea al reiniciar el equipo aparece con una pantalla negra y no se puede hacer nada.
