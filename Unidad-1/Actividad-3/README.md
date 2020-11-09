@@ -57,7 +57,7 @@ Por último volveremos a comprobar
 
 ##### **Punto 3.1** Cliente GNU/Linux GUI
 
-Ahora probaremos la conexión con nuestro recurso Samba desde una máquina Samba
+Ahora probaremos la conexión con nuestro recurso Samba desde una máquina Linux
 
 ![](3.1.1.png)
 
