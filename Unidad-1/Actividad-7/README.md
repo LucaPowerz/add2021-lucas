@@ -1,4 +1,4 @@
-#  **Cliente para autenticación LDAP**
+#  **Actividad Vagrant**
 
 ### Componentes del grupo:
 * Lucas Hernández Hernández
